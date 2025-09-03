@@ -1,0 +1,19 @@
+---
+title: brand.yml demo
+format: html
+---
+
+Here is a spiral rendered in plotnine:
+
+```{python}
+#| echo: false
+from quarto import theme_brand_plotnine
+
+light_theme = theme_brand_plotnine('brand-light.yml')
+dark_theme = theme_brand_plotnine('brand-dark.yml')
+```
+
+```{python}
+#| echo: false
+{{< include plotnine-renderings.py >}}
+```

@@ -1,0 +1,12 @@
+project:
+  type: website
+theme:
+  light: [h1hack.scss, brand]
+  dark: [h1hack.scss, brand, dark-fixups.scss]
+highlight-style: a11y
+website:
+  sidebar:
+    style: "docked"
+    search: true
+    contents:
+      - renderings.qmd

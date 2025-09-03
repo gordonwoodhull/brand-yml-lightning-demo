@@ -1,0 +1,16 @@
+[project]
+name = "brand-yml-lightning-demo"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "brand-yml>=0.1.1",
+    "jupyter>=1.1.1",
+    "nbconvert>=7.16.6",
+    "plotnine>=0.15.0",
+    "quarto",
+]
+
+[tool.uv.sources]
+quarto = { git = "https://github.com/quarto-dev/quarto-python" }
