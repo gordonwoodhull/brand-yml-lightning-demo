@@ -1,0 +1,11 @@
+<script>
+  setTimeout(() => {
+    const colorToggle = document.querySelector('a.quarto-color-scheme-toggle');
+    if (colorToggle) {
+      colorToggle.click();
+      console.log('Color scheme toggled');
+    } else {
+      console.error('Color scheme toggle not found');
+    }
+  }, 2000);
+</script>
