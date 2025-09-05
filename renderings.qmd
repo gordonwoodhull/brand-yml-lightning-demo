@@ -3,7 +3,16 @@ title: brand.yml demo
 format: html
 ---
 
-Here is a spiral rendered in plotnine:
+Here's a block of code:
+```{python}
+def fib(n):
+  if n<2: return n
+  else: return fib(n-1) + fib(n-2)
+```
+
+And the result of `fib(17)`{.python} is `{python} fib(17)`.
+
+Here is a [spiral](https://en.wikipedia.org/wiki/Spiral) rendered in plotnine:
 
 ```{python}
 #| echo: false
