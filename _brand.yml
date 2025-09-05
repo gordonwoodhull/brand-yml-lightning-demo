@@ -1,23 +1,78 @@
-color:
-  background:
-    light: '#f3f3f8'
-    dark: '#0f0412'
-  foreground:
-    light: '#113322'
-    dark: '#f8f8f8'
+meta:
+  name:
+    full: "Ministry of Ecological Balance"
+    short: "Ecological Balance"
+  link:
+    home: "https://eco-balance.verdantia.gov"
+    mastodon: "https://ecosocial.net/@ecobalance"
+    github: "https://github.com/verdantia-eco-balance"
+    linkedin: "https://linkedin.com/company/ecological-balance-verdantia"
+
 logo:
-  small:
-    light: sun-face.png
-    dark: moon-face.png
+  medium: ecological-balance.png
+
+color:
+  palette:
+    pure-white: '#ffffff'
+    soft-white: '#fefefe'
+    leaf-green: '#a2cc84'
+    leaf-green-translucent: '#a2cc8440'
+    forest-green: '#416e49'
+    aqua-blue: '#62aec6'
+    moss-green: '#548e5b'
+    earth-brown: '#426e4b'
+  foreground: forest-green
+  background: pure-white
+  primary: leaf-green
+  secondary: aqua-blue
+  tertiary: moss-green
+  success: forest-green
+  info: aqua-blue
+  warning: '#fcc865'
+  danger: '#d13030'
+
 typography:
+  fonts:
+    - family: "Montserrat"
+      source: google
+      weight: [400, 500, 600, 700]
+      style: [normal, italic]
+    - family: "Merriweather"
+      source: google
+      weight: [300, 400, 700]
+      style: [normal, italic]
+    - family: "Fira Code"
+      source: google
+      weight: [400, 500]
+  
   base:
-    family: Helvetica Neue
-    size: 32px
+    family: "Merriweather"
+    size: "16px"
+    weight: 300
+    line-height: 1.6
+  
   headings:
-    family: American Typewriter
-    color:
-      light: '#11226d'
-      dark: '#eeeeff'
-  monospace:
-    background-color:
-      dark: '#ffffff20'
+    family: "Montserrat"
+    weight: 600
+    style: normal
+    color: forest-green
+    line-height: 1.2
+  
+  monospace-inline:
+    family: "Fira Code"
+    size: "0.9em"
+    weight: 400
+    background-color: leaf-green-translucent
+  
+  monospace-block:
+    family: "Fira Code"
+    size: "0.95em"
+    weight: 400
+    color: pure-white
+    background-color: leaf-green-translucent
+    line-height: 1.5
+  
+  link:
+    weight: 400
+    color: moss-green
+    decoration: "underline"
