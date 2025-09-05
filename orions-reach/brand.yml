@@ -1,0 +1,89 @@
+meta:
+  name:
+    full: "Department of Intergalactic Ecology, Orion's Reach University"
+    short: "Orion's Reach"
+  link:
+    home: "https://intergalactic.orionsreach.edu"
+    mastodon: "https://science.social/@orionsreach"
+    github: "https://github.com/orions-reach-university"
+    bluesky: "https://bsky.app/profile/orionsreach.bsky.social"
+
+logo:
+  medium: orions-reach.png
+
+color:
+  palette:
+    light-gray: '#fefefe'
+    deep-blue: '#121933'
+    navy-blue: '#121833'
+    midnight-blue: '#121934'
+    soft-gray: '#f8f8f8'
+    royal-purple: '#381953'
+    cosmic-black: '#000000'
+  foreground: navy-blue
+  background: light-gray
+  primary: deep-blue
+  secondary: royal-purple
+  tertiary: soft-gray
+  success: '#416e49'
+  info: midnight-blue
+  warning: '#fcc865'
+  danger: '#d13030'
+  light: soft-gray
+  dark: navy-blue
+  link: deep-blue
+
+typography:
+  fonts:
+    - family: "Exo 2"
+      source: google
+      weight: [300, 400, 500, 700]
+      style: [normal, italic]
+    - family: "Titillium Web"
+      source: google
+      weight: [300, 400, 600, 700]
+      style: [normal, italic]
+    - family: "JetBrains Mono"
+      source: google
+      weight: [400, 600]
+      style: [normal]
+  
+  base:
+    family: "Titillium Web"
+    size: "17px"
+    weight: 400
+    line-height: 1.5
+  
+  headings:
+    family: "Exo 2"
+    weight: 600
+    style: normal
+    color: deep-blue
+    line-height: 1.2
+  
+  monospace:
+    family: "JetBrains Mono"
+    size: "0.9em"
+    weight: 400
+    color: navy-blue
+    background-color: soft-gray
+  
+  monospace-inline:
+    family: "JetBrains Mono"
+    size: "0.9em"
+    weight: 400
+    color: deep-blue
+    background-color: soft-gray
+  
+  monospace-block:
+    family: "JetBrains Mono"
+    size: "0.95em"
+    weight: 400
+    color: light-gray
+    background-color: midnight-blue
+    line-height: 1.5
+  
+  link:
+    weight: 500
+    color: deep-blue
+    decoration: "none"

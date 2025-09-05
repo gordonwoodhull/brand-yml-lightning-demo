@@ -9,3 +9,10 @@ website:
     search: true
     contents:
       - renderings.qmd
+profile:
+  group: 
+    - 
+      - ecological-balance
+      - tidal-equity
+      - quantum-linguistics
+      - orions-reach

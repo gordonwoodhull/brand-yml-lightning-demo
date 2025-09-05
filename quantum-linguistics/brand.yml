@@ -1,0 +1,84 @@
+meta:
+  name:
+    full: "Department of Quantum Linguistics"
+    short: "Quantum Linguistics"
+  link:
+    home: "https://quantum-linguistics.edu"
+    github: "https://github.com/quantum-linguistics"
+    mastodon: "https://scholar.social/@quantumlinguistics"
+
+logo:
+  medium: quantum-linguistics.png
+
+color:
+  palette:
+    quantum-navy: '#0e2d49'
+    deep-blue: '#0f2e4a'
+    midnight-blue: '#0d2c48'
+    accent-blue: '#102f4b'
+    light-gold: '#fcc865'
+    highlight-cream: '#ffffff'
+  foreground: quantum-navy
+  background: highlight-cream
+  primary: deep-blue
+  secondary: accent-blue
+  tertiary: midnight-blue
+  success: '#00853e'
+  info: quantum-navy
+  warning: light-gold
+  danger: '#d13030'
+  link: deep-blue
+
+typography:
+  fonts:
+    - family: "Space Mono"
+      source: google
+      weight: [400, 700]
+      style: [normal, italic]
+    - family: "Quicksand"
+      source: google
+      weight: [300, 400, 500, 700]
+      style: [normal]
+    - family: "Source Code Pro"
+      source: google
+      weight: [400, 700]
+  
+  base:
+    family: "Quicksand"
+    size: "16px"
+    weight: 400
+    line-height: 1.6
+  
+  headings:
+    family: "Quicksand"
+    weight: 700
+    style: normal
+    color: deep-blue
+    line-height: 1.2
+  
+  monospace:
+    family: "Space Mono"
+    size: "0.9em"
+    weight: 400
+    color: quantum-navy
+    background-color: highlight-cream
+  
+  monospace-inline:
+    family: "Space Mono"
+    size: "0.9em"
+    weight: 400
+    color: deep-blue
+    background-color: highlight-cream
+  
+  monospace-block:
+    family: "Source Code Pro"
+    size: "0.9em"
+    weight: 400
+    color: highlight-cream
+    background-color: quantum-navy
+    line-height: 1.5
+  
+  link:
+    weight: 500
+    color: deep-blue
+    decoration: "none"
