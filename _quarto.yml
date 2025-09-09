@@ -12,6 +12,12 @@ website:
 profile:
   group: 
     - 
+      - none
+      - color
+      - typography1
+      - typography2
+      - typography3
+      - logo
       - ecological-balance
       - tidal-equity
       - quantum-linguistics
