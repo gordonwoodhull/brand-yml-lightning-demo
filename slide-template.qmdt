@@ -1,0 +1,17 @@
+:::: {.columns}
+
+::: {.column width="50%" style="padding-top: 54px"}
+
+``` {.yaml filename="_brand.yml"}
+{{< include "${file}" >}}
+
+```
+
+:::
+
+::: {.column width="50%"}
+
+![](${screenshot}){.absolute width='{{< meta demo-width >}}' left='{{< meta demo-left >}}' top='{{< meta demo-top >}}' style='{{< meta demo-style >}}'}
+:::
+
+::::
