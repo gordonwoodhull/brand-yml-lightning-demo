@@ -68,7 +68,6 @@ typography:
     family: "Fira Code"
     size: "0.95em"
     weight: 400
-    color: pure-white
     background-color: leaf-green-translucent
     line-height: 1.5
   

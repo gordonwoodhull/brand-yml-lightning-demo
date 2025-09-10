@@ -17,6 +17,8 @@ color:
     midnight-blue: '#0d2c48'
     accent-blue: '#102f4b'
     light-gold: '#fcc865'
+    light-gold-translucent: '#fcc86540'
+    light-gold-more-translucent: '#fcc86520'
     highlight-cream: '#ffffff'
   foreground: quantum-navy
   background: highlight-cream
@@ -27,7 +29,6 @@ color:
   info: quantum-navy
   warning: light-gold
   danger: '#d13030'
-  link: deep-blue
 
 typography:
   fonts:
@@ -37,7 +38,7 @@ typography:
       style: [normal, italic]
     - family: "Quicksand"
       source: google
-      weight: [300, 400, 500, 700]
+      weight: [300, 400, 500, 600, 700]
       style: [normal]
     - family: "Source Code Pro"
       source: google
@@ -60,25 +61,24 @@ typography:
     family: "Space Mono"
     size: "0.9em"
     weight: 400
-    color: quantum-navy
-    background-color: highlight-cream
   
   monospace-inline:
     family: "Space Mono"
     size: "0.9em"
     weight: 400
     color: deep-blue
-    background-color: highlight-cream
+    background-color: light-gold-translucent
   
   monospace-block:
     family: "Source Code Pro"
     size: "0.9em"
     weight: 400
     color: highlight-cream
-    background-color: quantum-navy
+    background-color: light-gold-translucent
     line-height: 1.5
   
   link:
-    weight: 500
+    weight: 600
     color: deep-blue
-    decoration: "none"
+    decoration: "underline"
+    background-color: light-gold-more-translucent

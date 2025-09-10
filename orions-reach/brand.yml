@@ -18,6 +18,9 @@ color:
     navy-blue: '#121833'
     midnight-blue: '#121934'
     soft-gray: '#f8f8f8'
+    orion-green: '#52AC5A'
+    magenta: '#8b38a2'
+    magenta-translucent: '#8b38a260'
     royal-purple: '#381953'
     cosmic-black: '#000000'
   foreground: navy-blue
@@ -29,9 +32,6 @@ color:
   info: midnight-blue
   warning: '#fcc865'
   danger: '#d13030'
-  light: soft-gray
-  dark: navy-blue
-  link: deep-blue
 
 typography:
   fonts:
@@ -58,29 +58,27 @@ typography:
     family: "Exo 2"
     weight: 600
     style: normal
-    color: deep-blue
+    color: orion-green
     line-height: 1.2
   
   monospace:
     family: "JetBrains Mono"
     size: "0.9em"
     weight: 400
-    color: navy-blue
-    background-color: soft-gray
   
   monospace-inline:
     family: "JetBrains Mono"
     size: "0.9em"
     weight: 400
     color: deep-blue
-    background-color: soft-gray
+    background-color: magenta-translucent
   
   monospace-block:
     family: "JetBrains Mono"
     size: "0.95em"
     weight: 400
     color: light-gray
-    background-color: midnight-blue
+    background-color: magenta-translucent
     line-height: 1.5
   
   link:

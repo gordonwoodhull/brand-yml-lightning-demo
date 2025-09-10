@@ -17,17 +17,17 @@ color:
     slate-grey: '#fdfdfd'
     deep-black: '#000000'
     crimson: '#5c0000'
+    crimson-translucent: '#5c000040'
     aqua-accent: '#65cdd0'
   foreground: deep-black
   background: ivory-white
-  primary: crimson
+  primary: aqua-accent
   secondary: aqua-accent
   tertiary: slate-grey
   success: '#008060'
   info: crimson
   warning: '#f77865'
   danger: '#780000'
-  link: crimson
 
 typography:
   fonts:
@@ -60,22 +60,20 @@ typography:
     family: "IBM Plex Mono"
     size: "0.9em"
     weight: 400
-    color: crimson
-    background-color: slate-grey
   
   monospace-inline:
     family: "IBM Plex Mono"
     size: "0.9em"
     weight: 400
     color: crimson
-    background-color: slate-grey
+    background-color: crimson-translucent
   
   monospace-block:
     family: "IBM Plex Mono"
     size: "0.95em"
     weight: 400
     color: pure-white
-    background-color: crimson
+    background-color: crimson-translucent
     line-height: 1.5
   
   link:
