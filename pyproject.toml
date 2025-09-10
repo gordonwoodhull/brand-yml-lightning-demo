@@ -8,6 +8,7 @@ dependencies = [
     "brand-yml>=0.1.1",
     "jupyter>=1.1.1",
     "nbconvert>=7.16.6",
+    "papermill>=2.6.0",
     "plotnine>=0.15.0",
     "quarto",
 ]

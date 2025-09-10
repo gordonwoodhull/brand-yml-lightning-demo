@@ -16,10 +16,18 @@ Here is a [spiral](https://en.wikipedia.org/wiki/Spiral) rendered in plotnine:
 
 ```{python}
 #| echo: false
+#| tags: [parameters]
+
+profile = 'none'
+```
+
+
+```{python}
+#| echo: false
 from quarto import theme_brand_plotnine
 
-light_theme = theme_brand_plotnine('brand-light.yml')
-dark_theme = theme_brand_plotnine('brand-dark.yml')
+light_theme = theme_brand_plotnine(f'{profile}/brand-light.yml')
+dark_theme = theme_brand_plotnine(f'{profile}/brand-dark.yml')
 ```
 
 ```{python}

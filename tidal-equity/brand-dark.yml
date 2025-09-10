@@ -1,0 +1,86 @@
+meta:
+  name:
+    full: Ministry of Tidal Equity
+    short: Tidal Equity
+  link:
+    home: 'https://tidal-equity.gov.azure'
+    mastodon: 'https://mastodon.social/@tidalequity'
+    github: 'https://github.com/ministry-tidal-equity'
+logo:
+  medium: tidal-equity.png
+color:
+  palette:
+    ivory-white: '#fefefe'
+    pure-white: '#ffffff'
+    slate-grey: '#fdfdfd'
+    deep-black: '#000000'
+    crimson: '#5c0000'
+    aqua-accent: '#65cdd0'
+  foreground: deep-black
+  background: ivory-white
+  primary: crimson
+  secondary: aqua-accent
+  tertiary: slate-grey
+  success: '#008060'
+  info: crimson
+  warning: '#f77865'
+  danger: '#780000'
+  link: crimson
+typography:
+  fonts:
+    - family: Libre Baskerville
+      source: google
+      weight:
+        - 400
+        - 700
+      style:
+        - normal
+        - italic
+    - family: Work Sans
+      source: google
+      weight:
+        - 300
+        - 400
+        - 500
+        - 600
+      style:
+        - normal
+    - family: IBM Plex Mono
+      source: google
+      weight:
+        - 400
+        - 600
+  base:
+    family: Work Sans
+    size: 18px
+    weight: 400
+    line-height: 1.5
+  headings:
+    family: Libre Baskerville
+    weight: 700
+    style: normal
+    color: crimson
+    line-height: 1.3
+  monospace:
+    family: IBM Plex Mono
+    size: 0.9em
+    weight: 400
+    color: crimson
+    background-color: slate-grey
+  monospace-inline:
+    family: IBM Plex Mono
+    size: 0.9em
+    weight: 400
+    color: crimson
+    background-color: slate-grey
+  monospace-block:
+    family: IBM Plex Mono
+    size: 0.95em
+    weight: 400
+    color: pure-white
+    background-color: crimson
+    line-height: 1.5
+  link:
+    weight: 500
+    color: crimson
+    decoration: underline
